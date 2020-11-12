@@ -1,0 +1,9 @@
+npx create-react-app .  - створення проекту в поточній папці
+
+npm install redux - встановлення redux
+
+npm install react-redux - встановлення звязку
+
+Після встановлення - треба налаштувати 
+import { createStore, compose} from 'redux';
+import { Provider } from 'react-redux';
